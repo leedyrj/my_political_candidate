@@ -15,3 +15,29 @@ li {
     list-style: none;
 }
 
+.container-info--candidate {
+    background-color: red;
+    border-radius: 10px;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    display: blcok;
+    margin: auto;
+    color: white;
+}
+
+.committees--header {
+    background-color: navy;
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+    text-align: center;
+}
+
+.header--legislation {
+    background-color: navy;
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+    text-align: center;
+}

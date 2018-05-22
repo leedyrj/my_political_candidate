@@ -1,14 +1,11 @@
-const article = document.querySelector("article");
-const missionStatement = document.createTextNode("Mission Statement");
-article.append(missionStatement);
+var missionHeader = document.createElement("h1");
+var missionStatement = document.createElement("p");
+var headerText = document.createTextNode("Mission Statement");
+var statementText = document.createTextNode("To be a good legislator");
+missionHeader.appendChild(headerText);
+missionStatement.appendChild(statementText);
 
-const statement = document.createTextNode(": To be a good legislator.")
-article.appendChild(statement)
-
-const h3 = document.querySelector("article");
-const att = document.createAttribute("class");
-att.value = "congressional-district";
-h3.setAttributeNode(att);
-document.write("5th Congressional District");
-
-console.log("still working")
+var element = document.getElementById("candidate--container");
+var elementTwo = document.querySelector("p");
+element.appendChild(missionHeader);
+element.appendChild(missionStatement);
