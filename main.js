@@ -1,3 +1,4 @@
+//challenge 1
 var missionHeader = document.createElement("h1");
 var missionStatement = document.createElement("p");
 var headerText = document.createTextNode("Mission Statement");

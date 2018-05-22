@@ -16,7 +16,7 @@ li {
 }
 
 .container-info--candidate {
-    background-color: red;
+    background-color: darkred;
     border-radius: 10px;
     height: auto;
     width: 40%;
